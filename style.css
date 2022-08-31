@@ -31,7 +31,9 @@ section {
 
 ul li {
   list-style-type: disc;
+  list-style-position: inside;
   font-size: 18px;
+  line-height:1.5em ;
 }
 
 .addBtn {

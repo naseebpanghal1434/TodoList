@@ -1,34 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    padding: 7vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .container {
-    /* background-color: rgba(43, 226, 202, 0.53); */
+  /* background-color: rgba(43, 226, 202, 0.53); */
 }
 
 section {
-    padding: 10px;
-    width: 400px;
-    border: 5px solid white;
-    text-align: center;
-    background: rgba(43, 226, 202, 0.53);
-    height: 70vh;
+  padding: 10px;
+  width: 50vw;
+  border: 5px solid white;
+  text-align: center;
+  background: rgba(43, 226, 202, 0.53);
+  height: 80vh;
 }
 
 ul li {
-    list-style-type: disc;
+  list-style-type: disc;
+  font-size: 18px;
+}
+
+.addBtn {
+  padding: 10px;
+  font-size: 20px;
+}
+h1 {
+  margin-top: 10px;
+}
+
+.listItemInputData {
+  font-size: 18px;
+  width: 70%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 481px) {
+  .container {
+    padding-top: 20px;
+  }
+  .listItemInputData {
+    font-size: 14px;
+    padding: 5px;
+    /* margin-top: 20px; */
+  }
+  .addBtn {
+    padding: 5px;
+    font-size: 15px;
+  }
+  section {
+    padding: 5px;
+    width: 100%;
+  }
+  li{
+    font-size: 14px;
+  }
 }
